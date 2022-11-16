@@ -92,6 +92,6 @@ void Circle::printCircle() const
 
 bool Circle::equalCircle(const Circle& otherCircle) const
 {
-    return (raduis == otherCircle.radius &&
+    return (radius == otherCircle.radius &&
     area == otherCircle.area);
 }
